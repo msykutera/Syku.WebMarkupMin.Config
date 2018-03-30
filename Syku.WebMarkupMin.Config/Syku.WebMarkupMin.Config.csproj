@@ -5,6 +5,7 @@
     <Authors>Michał Sykutera</Authors>
     <Product>Syku.WebMarkupMin.Config</Product>
     <Description>Default configuration for WebMarkupMin .NET Core MVC 2</Description>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
