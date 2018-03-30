@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Michał Sykutera</Authors>
+    <Product>Syku.WebMarkupMin.Config</Product>
+    <Description>Default configuration for WebMarkupMin .NET Core MVC 2</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WebMarkupMin.AspNetCore2" Version="2.4.2" />
+    <PackageReference Include="WebMarkupMin.Brotli" Version="1.0.3" />
+    <PackageReference Include="WebMarkupMin.NUglify" Version="2.4.2" />
+  </ItemGroup>
+
+</Project>
