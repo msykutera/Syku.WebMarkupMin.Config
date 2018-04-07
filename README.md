@@ -1,5 +1,5 @@
 # Syku.WebMarkupMin.Config
-My default configuration for WebMarkupMin .NET Core MVC 2. It minifies response HTML, CSS, JS and compresses it.
+My default configuration for WebMarkupMin .NET Core MVC 2. It minifies response HTML, CSS, JS and compresses it using Brotli (or Deflate if not available).
 
 ```csharp
 public void ConfigureServices(IServiceCollection services)
